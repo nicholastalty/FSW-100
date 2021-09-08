@@ -1,0 +1,37 @@
+body, html {
+    margin: 10px;
+}
+.space-one {
+    display: inline-block;
+    border: 2px black dashed;
+    padding: 60px;
+}
+.space-two {
+    display: inline-block
+}
+.box-model {
+    height: 350px;
+    width: 450px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.coffee {
+    width: 425px;
+    border: 2px solid red;
+
+    position: relative;
+    left: 10px
+}
+.decaf {
+    height: 400px;
+    width: 555px;
+    border: 2px solid blue;
+}
+.blog {
+    
+}
