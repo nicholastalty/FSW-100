@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Xbox Series S Page created by Nicholas Talty</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+            <div class="navbar">
+                <img src="images/xboxlogo.png" class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="">Game Controllers</a></li>
+                        <li><a href="">VR Accessories</a></li>
+                        <li><a href="">Media Remotes</a></li>
+                        <li><a href="">Others</a></li>
+                    </ul>
+                </nav>
+                <img id="hamburger" src="images/menu.png" class="menu-icon"
+                onclick="togglemenu()">
+            </div>
+
+            <header class="title">
+                <h1>Get the new Xbox Series X</h1>
+                <h3>Now available at your local GameStop</h3>
+            </header>
+
+
+            <main class ="container">
+
+                        <div class="row">
+
+                            <div class="col-1">
+                                <h2>Xbox Series X <br>Bundle</h2>
+                                <h3>Wireless Controller for Xbox Series X included</h3>
+                                <p>(Compatible/Generic)</p>
+                                <h4>$499.99</h4>
+                                <button type="button">Buy Now<img src="images/arrow.png"></button>
+                            <div class="col-2">
+                                <img src="images/Xbox-Series-X.png" class="controller">
+                                <div class="color box"></div>
+                                <div class="add-btn"></div>
+                            </div>
+
+                            <div class="col-1">
+                                <h2>Xbox Elite Wireless Controller <br>Series 2</h2>
+                                <h3>Wireless Controller for Xbox Series X</h3>
+                                <p>(Compatible/Generic)</p>
+                                <h4>$32.50</h4>
+                                <button type="button">Buy Now<img src="images/arrow.png"></button>
+                            <div class="col-2">
+                                <img src="images/controller.jpg" class="controller">
+                                <div class="color box"></div>
+                                <div class="add-btn"></div>
+                            </div>
+
+                        </main>
+
+                        <footer><h2>Get yours today!</h2></footer>
+                        <table class="table">
+                            <tr>
+                                <th>Manufacturer</th>
+                                <th>Country</th>
+                            </tr>
+                            <tr>
+                                <td>Microsoft</td>
+                                <td>United States</td>
+                            </tr>
+                        </table>
+
+                    <div class="social-links">
+                        <img src="images/facebook.png">
+                        <img src="images/twitter.png">
+                    </div>
+
+            <script>
+                var menuList = document.getElementById("menuList")
+
+                menuList.style.maxHeight = "0px";
+
+                function togglemenu(){
+                    if(menuList.style.maxHeight == "0px")
+                    {
+                        menuList.style.maxHeight = "130px";
+                    }
+                    else 
+                    {
+                        menuList.style.maxHeight = "0px";
+                    }
+                }
+
+            </script>
+        </div>
+    </body>
+</html>
