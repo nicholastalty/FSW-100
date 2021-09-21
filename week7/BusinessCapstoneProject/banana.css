@@ -1,0 +1,12 @@
+body {
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 800px) {
+body {
+    background-color: yellowgreen;
+}
+}
+h1 {
+    font-family: 'Grechen Fuemen', cursive;
+}

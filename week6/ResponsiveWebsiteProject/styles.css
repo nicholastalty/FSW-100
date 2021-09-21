@@ -28,6 +28,28 @@ table{
     border: 1px solid greenyellow;
     justify-content: space-between;
 }
+#hamburger {
+    display: inline-block;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    display: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color: greenyellow;
+}
 .logo{
     width: 50px;
     cursor:pointer;
