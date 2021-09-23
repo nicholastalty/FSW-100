@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(255, 213, 75);
+}
+
+@media only screen and (max-width: 800px) {
+body {
+    background-color: rgb(173, 145, 53);
+}
+}
+h1 {
+    font-family: 'Bonheur Royale', cursive;
+}

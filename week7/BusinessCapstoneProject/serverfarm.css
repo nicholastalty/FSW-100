@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(0, 162, 255);
+}
+
+@media only screen and (max-width: 600px) {
+body {
+    background-color: rgb(4, 0, 235);
+}
+}
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+}
+h2 {
+    font-family:'Rajdhani', sans-serif;;
+}
